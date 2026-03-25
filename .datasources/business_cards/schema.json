@@ -1,0 +1,121 @@
+{
+  "name": "business_cards",
+  "description": "电子名片数据模型",
+  "fields": [
+    {
+      "name": "cardType",
+      "title": "名片类型",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "title": "姓名",
+      "type": "string"
+    },
+    {
+      "name": "title",
+      "title": "职位",
+      "type": "string"
+    },
+    {
+      "name": "company",
+      "title": "公司",
+      "type": "string"
+    },
+    {
+      "name": "phone",
+      "title": "电话",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "title": "邮箱",
+      "type": "string"
+    },
+    {
+      "name": "address",
+      "title": "地址",
+      "type": "string"
+    },
+    {
+      "name": "avatar",
+      "title": "头像",
+      "type": "string"
+    },
+    {
+      "name": "wechat",
+      "title": "微信",
+      "type": "string"
+    },
+    {
+      "name": "intro",
+      "title": "简介",
+      "type": "string"
+    },
+    {
+      "name": "legalPerson",
+      "title": "法人代表",
+      "type": "string"
+    },
+    {
+      "name": "registeredCapital",
+      "title": "注册资本",
+      "type": "string"
+    },
+    {
+      "name": "establishedDate",
+      "title": "成立日期",
+      "type": "string"
+    },
+    {
+      "name": "businessScope",
+      "title": "业务范围",
+      "type": "string"
+    },
+    {
+      "name": "website",
+      "title": "网址",
+      "type": "string"
+    },
+    {
+      "name": "logo",
+      "title": "公司Logo",
+      "type": "string"
+    },
+    {
+      "name": "views",
+      "title": "浏览量",
+      "type": "number"
+    },
+    {
+      "name": "likes",
+      "title": "点赞数",
+      "type": "number"
+    },
+    {
+      "name": "shares",
+      "title": "分享数",
+      "type": "number"
+    },
+    {
+      "name": "isOwner",
+      "title": "是否自建",
+      "type": "boolean"
+    },
+    {
+      "name": "version",
+      "title": "版本号",
+      "type": "number"
+    },
+    {
+      "name": "isDeleted",
+      "title": "是否删除",
+      "type": "boolean"
+    },
+    {
+      "name": "isActive",
+      "title": "是否激活",
+      "type": "boolean"
+    }
+  ]
+}

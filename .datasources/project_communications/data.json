@@ -1,0 +1,105 @@
+[
+  {
+    "projectId": "project_001",
+    "sender": "王经理",
+    "receiver": "李审核",
+    "messageType": "text",
+    "messageContent": "项目启动会已安排，客户方张总确认参会时间为下周三上午10点",
+    "sendTime": "2026-03-24T10:30:00.000Z",
+    "mentions": ["李审核"],
+    "tags": ["启动会", "客户沟通"],
+    "readStatus": "read",
+    "createdAt": 1742785800000,
+    "updatedAt": 1742785800000
+  },
+  {
+    "projectId": "project_001",
+    "sender": "李审核",
+    "receiver": "王经理",
+    "messageType": "text",
+    "messageContent": "收到，已通知审核组准备启动会议材料 @张审核 请提前审核材料",
+    "sendTime": "2026-03-24T10:45:00.000Z",
+    "mentions": ["张审核"],
+    "tags": ["会议材料", "审核"],
+    "readStatus": "read",
+    "createdAt": 1742786700000,
+    "updatedAt": 1742786700000
+  },
+  {
+    "projectId": "project_001",
+    "sender": "王经理",
+    "receiver": "项目组",
+    "messageType": "text",
+    "messageContent": "客户反馈需要补充环保验收报告，正在跟进 #环保 #补充材料",
+    "sendTime": "2026-03-23T15:20:00.000Z",
+    "mentions": [],
+    "tags": ["环保", "补充材料"],
+    "readStatus": "read",
+    "createdAt": 1742702400000,
+    "updatedAt": 1742702400000
+  },
+  {
+    "projectId": "project_002",
+    "sender": "张经理",
+    "receiver": "客户",
+    "messageType": "text",
+    "messageContent": "第一阶段审核报告已提交，等待客户确认",
+    "sendTime": "2026-03-24T09:00:00.000Z",
+    "mentions": [],
+    "tags": ["审核报告", "客户确认"],
+    "readStatus": "read",
+    "createdAt": 1742774400000,
+    "updatedAt": 1742774400000
+  },
+  {
+    "projectId": "project_002",
+    "sender": "张经理",
+    "receiver": "客户",
+    "messageType": "attachment",
+    "messageContent": "审核报告.pdf",
+    "sendTime": "2026-03-24T09:05:00.000Z",
+    "attachments": [
+      {
+        "fileName": "第一阶段审核报告.pdf",
+        "fileUrl": "/files/audit_report_phase1.pdf"
+      }
+    ],
+    "mentions": [],
+    "tags": ["审核报告"],
+    "readStatus": "read",
+    "createdAt": 1742774700000,
+    "updatedAt": 1742774700000
+  },
+  {
+    "projectId": "project_002",
+    "sender": "李审核",
+    "receiver": "项目组",
+    "messageType": "image",
+    "messageContent": "现场审核照片_1.jpg",
+    "sendTime": "2026-03-23T16:30:00.000Z",
+    "attachments": [
+      {
+        "fileName": "现场审核照片_1.jpg",
+        "fileUrl": "/images/audit_photo_1.jpg"
+      }
+    ],
+    "mentions": ["张经理"],
+    "tags": ["现场审核", "照片"],
+    "readStatus": "read",
+    "createdAt": 1742705400000,
+    "updatedAt": 1742705400000
+  },
+  {
+    "projectId": "project_003",
+    "sender": "刘审核",
+    "receiver": "项目组",
+    "messageType": "text",
+    "messageContent": "认证决定已完成，等待发布证书 @王经理 请通知客户准备领证 #认证完成",
+    "sendTime": "2026-03-24T11:00:00.000Z",
+    "mentions": ["王经理"],
+    "tags": ["认证完成"],
+    "readStatus": "unread",
+    "createdAt": 1742787600000,
+    "updatedAt": 1742787600000
+  }
+]

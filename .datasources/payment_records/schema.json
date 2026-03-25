@@ -1,0 +1,118 @@
+{
+  "name": "payment_records",
+  "description": "回款记录数据模型",
+  "fields": [
+    {
+      "id": "paymentId",
+      "displayName": "回款编号",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "contractId",
+      "displayName": "合同编号",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "contractAmount",
+      "displayName": "合同金额",
+      "type": "number",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "customerName",
+      "displayName": "客户名称",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "paidAmount",
+      "displayName": "已收金额",
+      "type": "number",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "currentPayment",
+      "displayName": "本次回款",
+      "type": "number",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "remainingAmount",
+      "displayName": "剩余金额",
+      "type": "number",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "paymentDate",
+      "displayName": "回款日期",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "paymentMethod",
+      "displayName": "付款方式",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "bankAccount",
+      "displayName": "收款账号",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "payerName",
+      "displayName": "付款单位",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "remark",
+      "displayName": "备注",
+      "type": "string",
+      "required": false,
+      "isMultiLine": true
+    },
+    {
+      "id": "confirmedBy",
+      "displayName": "确认人",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "confirmedAt",
+      "displayName": "确认时间",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "isTailPayment",
+      "displayName": "是否尾款",
+      "type": "boolean",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "createdAt",
+      "displayName": "创建时间",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "customer_versions",
+  "description": "客户信息版本记录，用于版本控制系统和变更联动引擎",
+  "fields": [
+    {
+      "name": "customer_id",
+      "type": "string",
+      "required": true,
+      "description": "客户ID"
+    },
+    {
+      "name": "customer_name",
+      "type": "string",
+      "required": true,
+      "description": "客户名称"
+    },
+    {
+      "name": "version",
+      "type": "number",
+      "required": true,
+      "description": "版本号"
+    },
+    {
+      "name": "change_type",
+      "type": "string",
+      "required": true,
+      "description": "变更类型：create（创建）、update（修改）、delete（删除）",
+      "enum": ["create", "update", "delete"]
+    },
+    {
+      "name": "changed_fields",
+      "type": "object",
+      "required": false,
+      "description": "变更的字段及新旧值"
+    },
+    {
+      "name": "old_data",
+      "type": "object",
+      "required": false,
+      "description": "变更前的完整数据"
+    },
+    {
+      "name": "new_data",
+      "type": "object",
+      "required": false,
+      "description": "变更后的完整数据"
+    },
+    {
+      "name": "changed_by",
+      "type": "string",
+      "required": true,
+      "description": "变更操作人ID"
+    },
+    {
+      "name": "changed_by_name",
+      "type": "string",
+      "required": true,
+      "description": "变更操作人姓名"
+    },
+    {
+      "name": "change_reason",
+      "type": "string",
+      "required": false,
+      "description": "变更原因"
+    },
+    {
+      "name": "created_at",
+      "type": "datetime",
+      "required": true,
+      "description": "变更时间"
+    },
+    {
+      "name": "department",
+      "type": "string",
+      "required": false,
+      "description": "变更人所属部门"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "name": "audit_schedules",
+  "description": "审核排班数据模型",
+  "fields": [
+    {
+      "name": "_openid",
+      "type": "string",
+      "description": "用户ID",
+      "required": false
+    },
+    {
+      "name": "scheduleId",
+      "type": "string",
+      "description": "排班ID",
+      "required": true
+    },
+    {
+      "name": "auditorId",
+      "type": "string",
+      "description": "审核员ID",
+      "required": true
+    },
+    {
+      "name": "auditorName",
+      "type": "string",
+      "description": "审核员姓名",
+      "required": true
+    },
+    {
+      "name": "date",
+      "type": "string",
+      "description": "排班日期（YYYY-MM-DD）",
+      "required": true
+    },
+    {
+      "name": "shiftType",
+      "type": "string",
+      "description": "班次类型（早班/中班/晚班）",
+      "required": true
+    },
+    {
+      "name": "startTime",
+      "type": "string",
+      "description": "开始时间（HH:MM）",
+      "required": true
+    },
+    {
+      "name": "endTime",
+      "type": "string",
+      "description": "结束时间（HH:MM）",
+      "required": true
+    },
+    {
+      "name": "location",
+      "type": "string",
+      "description": "审核地点",
+      "required": false
+    },
+    {
+      "name": "projectName",
+      "type": "string",
+      "description": "项目名称",
+      "required": false
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "description": "排班状态（已排班/已完成/已取消）",
+      "required": true
+    },
+    {
+      "name": "notes",
+      "type": "string",
+      "description": "备注信息",
+      "required": false
+    },
+    {
+      "name": "createdAt",
+      "type": "string",
+      "description": "创建时间",
+      "required": false
+    },
+    {
+      "name": "updatedAt",
+      "type": "string",
+      "description": "更新时间",
+      "required": false
+    }
+  ]
+}

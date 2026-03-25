@@ -1,0 +1,148 @@
+{
+  "name": "meeting_reservations",
+  "description": "会议室预定管理",
+  "fields": [
+    {
+      "name": "reservationId",
+      "type": "string",
+      "required": true,
+      "description": "预定编号"
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "required": true,
+      "description": "会议主题"
+    },
+    {
+      "name": "organizer",
+      "type": "object",
+      "required": true,
+      "description": "组织者信息",
+      "properties": {
+        "userId": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "department": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "name": "room",
+      "type": "object",
+      "required": true,
+      "description": "会议室信息",
+      "properties": {
+        "roomId": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "capacity": {
+          "type": "number"
+        },
+        "equipment": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "name": "startDate",
+      "type": "string",
+      "required": true,
+      "description": "开始日期"
+    },
+    {
+      "name": "startTime",
+      "type": "string",
+      "required": true,
+      "description": "开始时间"
+    },
+    {
+      "name": "endDate",
+      "type": "string",
+      "required": true,
+      "description": "结束日期"
+    },
+    {
+      "name": "endTime",
+      "type": "string",
+      "required": true,
+      "description": "结束时间"
+    },
+    {
+      "name": "attendees",
+      "type": "number",
+      "required": true,
+      "description": "参会人数"
+    },
+    {
+      "name": "attendeeList",
+      "type": "array",
+      "required": false,
+      "description": "参会人员列表",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "department": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "required": false,
+      "description": "会议描述"
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "required": true,
+      "description": "状态",
+      "enum": ["已预定", "进行中", "已完成", "已取消"]
+    },
+    {
+      "name": "catering",
+      "type": "boolean",
+      "required": false,
+      "description": "是否需要茶水"
+    },
+    {
+      "name": "recurring",
+      "type": "boolean",
+      "required": false,
+      "description": "是否重复"
+    },
+    {
+      "name": "recurringPattern",
+      "type": "string",
+      "required": false,
+      "description": "重复模式"
+    },
+    {
+      "name": "createdAt",
+      "type": "string",
+      "required": false,
+      "description": "创建时间"
+    },
+    {
+      "name": "updatedAt",
+      "type": "string",
+      "required": false,
+      "description": "更新时间"
+    }
+  ]
+}

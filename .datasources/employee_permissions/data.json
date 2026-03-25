@@ -1,0 +1,522 @@
+[
+  {
+    "_openid": "user_001",
+    "name": "张总",
+    "phone": "13800138001",
+    "email": "zhangzong@example.com",
+    "department": "综合管理部",
+    "position": "总经理",
+    "role": "超级管理员",
+    "avatarUrl": null,
+    "permissions": {
+      "module": {
+        "projectManagement": true,
+        "customerManagement": true,
+        "auditManagement": true,
+        "certificateManagement": true,
+        "financeManagement": true,
+        "employeeManagement": true,
+        "reportAnalysis": true,
+        "systemSettings": true
+      },
+      "action": {
+        "view": true,
+        "create": true,
+        "edit": true,
+        "delete": true,
+        "export": true,
+        "approve": true
+      },
+      "data": {
+        "allDepartments": true,
+        "ownDepartment": true,
+        "ownData": true
+      }
+    },
+    "dataScope": "all",
+    "status": "active",
+    "lastLogin": "2026-03-24 09:30",
+    "createdAt": "2026-01-01T08:00:00Z",
+    "updatedAt": "2026-03-24T09:30:00Z"
+  },
+  {
+    "_openid": "user_002",
+    "name": "李总监",
+    "phone": "13800138002",
+    "email": "lidong@example.com",
+    "department": "市场部",
+    "position": "市场总监",
+    "role": "业务总监",
+    "avatarUrl": null,
+    "permissions": {
+      "module": {
+        "projectManagement": true,
+        "customerManagement": true,
+        "auditManagement": true,
+        "certificateManagement": true,
+        "financeManagement": false,
+        "employeeManagement": false,
+        "reportAnalysis": true,
+        "systemSettings": false
+      },
+      "action": {
+        "view": true,
+        "create": true,
+        "edit": true,
+        "delete": true,
+        "export": true,
+        "approve": true
+      },
+      "data": {
+        "allDepartments": true,
+        "ownDepartment": true,
+        "ownData": true
+      }
+    },
+    "dataScope": "all",
+    "status": "active",
+    "lastLogin": "2026-03-24 08:45",
+    "createdAt": "2026-01-05T08:00:00Z",
+    "updatedAt": "2026-03-24T08:45:00Z"
+  },
+  {
+    "_openid": "user_003",
+    "name": "王经理",
+    "phone": "13800138003",
+    "email": "wangjingli@example.com",
+    "department": "市场部",
+    "position": "业务经理",
+    "role": "业务经理",
+    "avatarUrl": null,
+    "permissions": {
+      "module": {
+        "projectManagement": true,
+        "customerManagement": true,
+        "auditManagement": true,
+        "certificateManagement": true,
+        "financeManagement": false,
+        "employeeManagement": false,
+        "reportAnalysis": true,
+        "systemSettings": false
+      },
+      "action": {
+        "view": true,
+        "create": true,
+        "edit": true,
+        "delete": false,
+        "export": true,
+        "approve": false
+      },
+      "data": {
+        "allDepartments": false,
+        "ownDepartment": true,
+        "ownData": true
+      }
+    },
+    "dataScope": "department",
+    "status": "active",
+    "lastLogin": "2026-03-24 10:15",
+    "createdAt": "2026-01-10T08:00:00Z",
+    "updatedAt": "2026-03-24T10:15:00Z"
+  },
+  {
+    "_openid": "user_004",
+    "name": "赵审核",
+    "phone": "13800138004",
+    "email": "zhaoshenhe@example.com",
+    "department": "审核部",
+    "position": "高级审核员",
+    "role": "审核员",
+    "avatarUrl": null,
+    "permissions": {
+      "module": {
+        "projectManagement": true,
+        "customerManagement": true,
+        "auditManagement": true,
+        "certificateManagement": true,
+        "financeManagement": false,
+        "employeeManagement": false,
+        "reportAnalysis": false,
+        "systemSettings": false
+      },
+      "action": {
+        "view": true,
+        "create": true,
+        "edit": true,
+        "delete": false,
+        "export": true,
+        "approve": false
+      },
+      "data": {
+        "allDepartments": false,
+        "ownDepartment": true,
+        "ownData": true
+      }
+    },
+    "dataScope": "department",
+    "status": "active",
+    "lastLogin": "2026-03-24 07:50",
+    "createdAt": "2026-01-15T08:00:00Z",
+    "updatedAt": "2026-03-24T07:50:00Z"
+  },
+  {
+    "_openid": "user_005",
+    "name": "孙财务",
+    "phone": "13800138005",
+    "email": "suncaiwu@example.com",
+    "department": "财务部",
+    "position": "财务专员",
+    "role": "财务专员",
+    "avatarUrl": null,
+    "permissions": {
+      "module": {
+        "projectManagement": false,
+        "customerManagement": false,
+        "auditManagement": false,
+        "certificateManagement": false,
+        "financeManagement": true,
+        "employeeManagement": false,
+        "reportAnalysis": true,
+        "systemSettings": false
+      },
+      "action": {
+        "view": true,
+        "create": true,
+        "edit": true,
+        "delete": false,
+        "export": true,
+        "approve": true
+      },
+      "data": {
+        "allDepartments": false,
+        "ownDepartment": true,
+        "ownData": true
+      }
+    },
+    "dataScope": "department",
+    "status": "active",
+    "lastLogin": "2026-03-24 11:20",
+    "createdAt": "2026-01-20T08:00:00Z",
+    "updatedAt": "2026-03-24T11:20:00Z"
+  },
+  {
+    "_openid": "user_006",
+    "name": "周行政",
+    "phone": "13800138006",
+    "email": "zhouxingzheng@example.com",
+    "department": "综合管理部",
+    "position": "行政专员",
+    "role": "行政专员",
+    "avatarUrl": null,
+    "permissions": {
+      "module": {
+        "projectManagement": false,
+        "customerManagement": false,
+        "auditManagement": false,
+        "certificateManagement": false,
+        "financeManagement": false,
+        "employeeManagement": false,
+        "reportAnalysis": false,
+        "systemSettings": true
+      },
+      "action": {
+        "view": true,
+        "create": true,
+        "edit": true,
+        "delete": false,
+        "export": true,
+        "approve": false
+      },
+      "data": {
+        "allDepartments": false,
+        "ownDepartment": true,
+        "ownData": true
+      }
+    },
+    "dataScope": "department",
+    "status": "active",
+    "lastLogin": "2026-03-24 08:30",
+    "createdAt": "2026-02-01T08:00:00Z",
+    "updatedAt": "2026-03-24T08:30:00Z"
+  },
+  {
+    "_openid": "user_007",
+    "name": "吴技术",
+    "phone": "13800138007",
+    "email": "wujishu@example.com",
+    "department": "技术质量部",
+    "position": "技术总监",
+    "role": "业务总监",
+    "avatarUrl": null,
+    "permissions": {
+      "module": {
+        "projectManagement": true,
+        "customerManagement": true,
+        "auditManagement": true,
+        "certificateManagement": true,
+        "financeManagement": false,
+        "employeeManagement": false,
+        "reportAnalysis": true,
+        "systemSettings": false
+      },
+      "action": {
+        "view": true,
+        "create": true,
+        "edit": true,
+        "delete": false,
+        "export": true,
+        "approve": true
+      },
+      "data": {
+        "allDepartments": true,
+        "ownDepartment": true,
+        "ownData": true
+      }
+    },
+    "dataScope": "all",
+    "status": "active",
+    "lastLogin": "2026-03-24 09:00",
+    "createdAt": "2026-02-05T08:00:00Z",
+    "updatedAt": "2026-03-24T09:00:00Z"
+  },
+  {
+    "_openid": "user_008",
+    "name": "郑客服",
+    "phone": "13800138008",
+    "email": "zhengkefu@example.com",
+    "department": "客服部",
+    "position": "客服主管",
+    "role": "业务经理",
+    "avatarUrl": null,
+    "permissions": {
+      "module": {
+        "projectManagement": true,
+        "customerManagement": true,
+        "auditManagement": false,
+        "certificateManagement": true,
+        "financeManagement": false,
+        "employeeManagement": false,
+        "reportAnalysis": false,
+        "systemSettings": false
+      },
+      "action": {
+        "view": true,
+        "create": true,
+        "edit": true,
+        "delete": false,
+        "export": true,
+        "approve": false
+      },
+      "data": {
+        "allDepartments": false,
+        "ownDepartment": true,
+        "ownData": true
+      }
+    },
+    "dataScope": "department",
+    "status": "active",
+    "lastLogin": "2026-03-24 10:00",
+    "createdAt": "2026-02-10T08:00:00Z",
+    "updatedAt": "2026-03-24T10:00:00Z"
+  },
+  {
+    "_openid": "user_009",
+    "name": "冯顾问",
+    "phone": "13800138009",
+    "email": "fengguwen@example.com",
+    "department": "技术质量部",
+    "position": "外部顾问",
+    "role": "外部顾问",
+    "avatarUrl": null,
+    "permissions": {
+      "module": {
+        "projectManagement": true,
+        "customerManagement": true,
+        "auditManagement": true,
+        "certificateManagement": true,
+        "financeManagement": false,
+        "employeeManagement": false,
+        "reportAnalysis": false,
+        "systemSettings": false
+      },
+      "action": {
+        "view": true,
+        "create": false,
+        "edit": false,
+        "delete": false,
+        "export": false,
+        "approve": false
+      },
+      "data": {
+        "allDepartments": false,
+        "ownDepartment": false,
+        "ownData": true
+      }
+    },
+    "dataScope": "self",
+    "status": "active",
+    "lastLogin": "2026-03-23 16:30",
+    "createdAt": "2026-02-15T08:00:00Z",
+    "updatedAt": "2026-03-23T16:30:00Z"
+  },
+  {
+    "_openid": "user_010",
+    "name": "陈审核员",
+    "phone": "13800138010",
+    "email": "chenshenhe@example.com",
+    "department": "审核部",
+    "position": "审核员",
+    "role": "审核员",
+    "avatarUrl": null,
+    "permissions": {
+      "module": {
+        "projectManagement": true,
+        "customerManagement": true,
+        "auditManagement": true,
+        "certificateManagement": true,
+        "financeManagement": false,
+        "employeeManagement": false,
+        "reportAnalysis": false,
+        "systemSettings": false
+      },
+      "action": {
+        "view": true,
+        "create": true,
+        "edit": true,
+        "delete": false,
+        "export": false,
+        "approve": false
+      },
+      "data": {
+        "allDepartments": false,
+        "ownDepartment": true,
+        "ownData": true
+      }
+    },
+    "dataScope": "department",
+    "status": "active",
+    "lastLogin": "2026-03-24 08:20",
+    "createdAt": "2026-02-20T08:00:00Z",
+    "updatedAt": "2026-03-24T08:20:00Z"
+  },
+  {
+    "_openid": "user_011",
+    "name": "褚经理",
+    "phone": "13800138011",
+    "email": "chujingli@example.com",
+    "department": "人力资源部",
+    "position": "人事经理",
+    "role": "业务经理",
+    "avatarUrl": null,
+    "permissions": {
+      "module": {
+        "projectManagement": false,
+        "customerManagement": false,
+        "auditManagement": false,
+        "certificateManagement": false,
+        "financeManagement": false,
+        "employeeManagement": true,
+        "reportAnalysis": true,
+        "systemSettings": false
+      },
+      "action": {
+        "view": true,
+        "create": true,
+        "edit": true,
+        "delete": false,
+        "export": true,
+        "approve": true
+      },
+      "data": {
+        "allDepartments": true,
+        "ownDepartment": true,
+        "ownData": true
+      }
+    },
+    "dataScope": "all",
+    "status": "active",
+    "lastLogin": "2026-03-24 09:10",
+    "createdAt": "2026-02-25T08:00:00Z",
+    "updatedAt": "2026-03-24T09:10:00Z"
+  },
+  {
+    "_openid": "user_012",
+    "name": "卫审核",
+    "phone": "13800138012",
+    "email": "weishenhe@example.com",
+    "department": "审核部",
+    "position": "审核员",
+    "role": "审核员",
+    "avatarUrl": null,
+    "permissions": {
+      "module": {
+        "projectManagement": true,
+        "customerManagement": true,
+        "auditManagement": true,
+        "certificateManagement": true,
+        "financeManagement": false,
+        "employeeManagement": false,
+        "reportAnalysis": false,
+        "systemSettings": false
+      },
+      "action": {
+        "view": true,
+        "create": true,
+        "edit": true,
+        "delete": false,
+        "export": false,
+        "approve": false
+      },
+      "data": {
+        "allDepartments": false,
+        "ownDepartment": true,
+        "ownData": true
+      }
+    },
+    "dataScope": "department",
+    "status": "active",
+    "lastLogin": "2026-03-24 11:30",
+    "createdAt": "2026-03-01T08:00:00Z",
+    "updatedAt": "2026-03-24T11:30:00Z"
+  },
+  {
+    "_openid": "user_013",
+    "name": "蒋客服",
+    "phone": "13800138013",
+    "email": "jiangkefu@example.com",
+    "department": "客服部",
+    "position": "客服专员",
+    "role": "业务经理",
+    "avatarUrl": null,
+    "permissions": {
+      "module": {
+        "projectManagement": true,
+        "customerManagement": true,
+        "auditManagement": false,
+        "certificateManagement": true,
+        "financeManagement": false,
+        "employeeManagement": false,
+        "reportAnalysis": false,
+        "systemSettings": false
+      },
+      "action": {
+        "view": true,
+        "create": true,
+        "edit": false,
+        "delete": false,
+        "export": false,
+        "approve": false
+      },
+      "data": {
+        "allDepartments": false,
+        "ownDepartment": true,
+        "ownData": true
+      }
+    },
+    "dataScope": "department",
+    "status": "active",
+    "lastLogin": "2026-03-24 10:40",
+    "createdAt": "2026-03-05T08:00:00Z",
+    "updatedAt": "2026-03-24T10:40:00Z"
+  }
+]

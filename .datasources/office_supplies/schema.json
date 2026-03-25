@@ -1,0 +1,141 @@
+{
+  "name": "office_supplies",
+  "description": "办公用品申领管理",
+  "fields": [
+    {
+      "name": "supplyId",
+      "type": "string",
+      "required": true,
+      "description": "申领编号"
+    },
+    {
+      "name": "applicant",
+      "type": "object",
+      "required": true,
+      "description": "申请人信息",
+      "properties": {
+        "userId": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "department": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "name": "items",
+      "type": "array",
+      "required": true,
+      "description": "物品列表",
+      "items": {
+        "type": "object",
+        "properties": {
+          "itemName": {
+            "type": "string"
+          },
+          "quantity": {
+            "type": "number"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "unitPrice": {
+            "type": "number"
+          }
+        }
+      }
+    },
+    {
+      "name": "totalAmount",
+      "type": "number",
+      "required": false,
+      "description": "总金额"
+    },
+    {
+      "name": "reason",
+      "type": "string",
+      "required": true,
+      "description": "申领理由"
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "required": true,
+      "description": "状态",
+      "enum": ["待审批", "已审批", "已拒绝", "已领取"]
+    },
+    {
+      "name": "approver",
+      "type": "object",
+      "required": false,
+      "description": "审批人信息",
+      "properties": {
+        "userId": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "name": "approvalDate",
+      "type": "string",
+      "required": false,
+      "description": "审批日期"
+    },
+    {
+      "name": "approvalComment",
+      "type": "string",
+      "required": false,
+      "description": "审批意见"
+    },
+    {
+      "name": "receiveDate",
+      "type": "string",
+      "required": false,
+      "description": "领取日期"
+    },
+    {
+      "name": "receiver",
+      "type": "string",
+      "required": false,
+      "description": "领取人"
+    },
+    {
+      "name": "inventory",
+      "type": "array",
+      "required": false,
+      "description": "库存信息",
+      "items": {
+        "type": "object",
+        "properties": {
+          "itemName": {
+            "type": "string"
+          },
+          "stock": {
+            "type": "number"
+          },
+          "unit": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "name": "createdAt",
+      "type": "string",
+      "required": false,
+      "description": "申请时间"
+    },
+    {
+      "name": "updatedAt",
+      "type": "string",
+      "required": false,
+      "description": "更新时间"
+    }
+  ]
+}

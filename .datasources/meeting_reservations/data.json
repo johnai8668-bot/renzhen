@@ -1,0 +1,205 @@
+[
+  {
+    "_id": "1",
+    "reservationId": "MR20260324001",
+    "title": "周例会",
+    "organizer": {
+      "userId": "admin",
+      "name": "王经理",
+      "department": "综合管理部"
+    },
+    "room": {
+      "roomId": "R001",
+      "name": "大会议室",
+      "capacity": 30,
+      "equipment": ["投影仪", "音响", "白板"]
+    },
+    "startDate": "2026-03-24",
+    "startTime": "09:00",
+    "endDate": "2026-03-24",
+    "endTime": "10:30",
+    "attendees": 20,
+    "attendeeList": [
+      {"name": "王经理", "department": "综合管理部"},
+      {"name": "张明", "department": "审核部"},
+      {"name": "李芳", "department": "市场部"},
+      {"name": "刘总监", "department": "财务部"},
+      {"name": "陈主任", "department": "人事部"}
+    ],
+    "description": "本周工作总结和下周工作计划",
+    "status": "进行中",
+    "catering": true,
+    "recurring": true,
+    "recurringPattern": "每周一",
+    "createdAt": "2026-03-20T08:00:00Z",
+    "updatedAt": "2026-03-24T09:00:00Z"
+  },
+  {
+    "_id": "2",
+    "reservationId": "MR20260325002",
+    "title": "客户签约会议",
+    "organizer": {
+      "userId": "user2",
+      "name": "李芳",
+      "department": "市场部"
+    },
+    "room": {
+      "roomId": "R002",
+      "name": "小会议室",
+      "capacity": 10,
+      "equipment": ["投影仪", "音响"]
+    },
+    "startDate": "2026-03-25",
+    "startTime": "14:00",
+    "endDate": "2026-03-25",
+    "endTime": "16:00",
+    "attendees": 8,
+    "attendeeList": [
+      {"name": "李芳", "department": "市场部"},
+      {"name": "王经理", "department": "综合管理部"},
+      {"name": "张三（客户）", "department": "外部"},
+      {"name": "李四（客户）", "department": "外部"}
+    ],
+    "description": "与XX公司签订审核服务合同",
+    "status": "已预定",
+    "catering": true,
+    "recurring": false,
+    "createdAt": "2026-03-24T10:00:00Z",
+    "updatedAt": "2026-03-24T10:00:00Z"
+  },
+  {
+    "_id": "3",
+    "reservationId": "MR20260326003",
+    "title": "审核标准培训",
+    "organizer": {
+      "userId": "tech",
+      "name": "李主管",
+      "department": "技术部"
+    },
+    "room": {
+      "roomId": "R001",
+      "name": "大会议室",
+      "capacity": 30,
+      "equipment": ["投影仪", "音响", "白板"]
+    },
+    "startDate": "2026-03-26",
+    "startTime": "09:00",
+    "endDate": "2026-03-26",
+    "endTime": "12:00",
+    "attendees": 25,
+    "description": "新版审核标准培训",
+    "status": "已预定",
+    "catering": true,
+    "recurring": false,
+    "createdAt": "2026-03-24T11:00:00Z",
+    "updatedAt": "2026-03-24T11:00:00Z"
+  },
+  {
+    "_id": "4",
+    "reservationId": "MR20260323004",
+    "title": "项目评审会",
+    "organizer": {
+      "userId": "user1",
+      "name": "张明",
+      "department": "审核部"
+    },
+    "room": {
+      "roomId": "R003",
+      "name": "培训室",
+      "capacity": 15,
+      "equipment": ["投影仪", "白板"]
+    },
+    "startDate": "2026-03-23",
+    "startTime": "10:00",
+    "endDate": "2026-03-23",
+    "endTime": "11:30",
+    "attendees": 12,
+    "description": "XX公司项目评审",
+    "status": "已完成",
+    "catering": false,
+    "recurring": false,
+    "createdAt": "2026-03-22T14:00:00Z",
+    "updatedAt": "2026-03-23T11:30:00Z"
+  },
+  {
+    "_id": "5",
+    "reservationId": "MR20260322005",
+    "title": "面试安排",
+    "organizer": {
+      "userId": "hr",
+      "name": "陈主任",
+      "department": "人事部"
+    },
+    "room": {
+      "roomId": "R002",
+      "name": "小会议室",
+      "capacity": 10,
+      "equipment": ["音响"]
+    },
+    "startDate": "2026-03-22",
+    "startTime": "14:00",
+    "endDate": "2026-03-22",
+    "endTime": "17:00",
+    "attendees": 6,
+    "description": "审核员岗位面试",
+    "status": "已完成",
+    "catering": false,
+    "recurring": false,
+    "createdAt": "2026-03-21T09:00:00Z",
+    "updatedAt": "2026-03-22T17:00:00Z"
+  },
+  {
+    "_id": "6",
+    "reservationId": "MR20260327006",
+    "title": "财务工作会议",
+    "organizer": {
+      "userId": "finance_admin",
+      "name": "刘总监",
+      "department": "财务部"
+    },
+    "room": {
+      "roomId": "R002",
+      "name": "小会议室",
+      "capacity": 10,
+      "equipment": ["投影仪"]
+    },
+    "startDate": "2026-03-27",
+    "startTime": "09:30",
+    "endDate": "2026-03-27",
+    "endTime": "11:00",
+    "attendees": 8,
+    "description": "3月份财务工作总结",
+    "status": "已预定",
+    "catering": false,
+    "recurring": false,
+    "createdAt": "2026-03-24T12:00:00Z",
+    "updatedAt": "2026-03-24T12:00:00Z"
+  },
+  {
+    "_id": "7",
+    "reservationId": "MR20260321007",
+    "title": "部门协调会",
+    "organizer": {
+      "userId": "admin",
+      "name": "王经理",
+      "department": "综合管理部"
+    },
+    "room": {
+      "roomId": "R001",
+      "name": "大会议室",
+      "capacity": 30,
+      "equipment": ["投影仪", "音响", "白板"]
+    },
+    "startDate": "2026-03-21",
+    "startTime": "15:00",
+    "endDate": "2026-03-21",
+    "endTime": "16:30",
+    "attendees": 18,
+    "description": "跨部门项目协调",
+    "status": "已取消",
+    "catering": false,
+    "recurring": false,
+    "createdAt": "2026-03-20T10:00:00Z",
+    "updatedAt": "2026-03-21T10:00:00Z"
+  }
+]

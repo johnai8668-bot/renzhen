@@ -1,0 +1,115 @@
+{
+  "name": "knowledge_base",
+  "description": "知识库数据模型",
+  "fields": [
+    {
+      "name": "title",
+      "title": "文档标题",
+      "type": "string"
+    },
+    {
+      "name": "content",
+      "title": "文档内容",
+      "type": "string"
+    },
+    {
+      "name": "type",
+      "title": "文档类型",
+      "type": "string"
+    },
+    {
+      "name": "category",
+      "title": "文档分类",
+      "type": "string"
+    },
+    {
+      "name": "tags",
+      "title": "文档标签",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "currentVersion",
+      "title": "当前版本",
+      "type": "string"
+    },
+    {
+      "name": "author",
+      "title": "作者",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "title": "文档描述",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "title": "状态",
+      "type": "string"
+    },
+    {
+      "name": "permission",
+      "title": "权限设置",
+      "type": "string"
+    },
+    {
+      "name": "department",
+      "title": "所属部门",
+      "type": "string"
+    },
+    {
+      "name": "authorId",
+      "title": "作者ID",
+      "type": "string"
+    },
+    {
+      "name": "authorName",
+      "title": "作者姓名",
+      "type": "string"
+    },
+    {
+      "name": "version",
+      "title": "版本号",
+      "type": "number"
+    },
+    {
+      "name": "isDeleted",
+      "title": "是否删除",
+      "type": "boolean"
+    },
+    {
+      "name": "isActive",
+      "title": "是否激活",
+      "type": "boolean"
+    },
+    {
+      "name": "attachments",
+      "title": "附件列表",
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "comments",
+      "title": "评论列表",
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    {
+      "name": "createdAt",
+      "title": "创建时间",
+      "type": "string"
+    },
+    {
+      "name": "updatedAt",
+      "title": "更新时间",
+      "type": "string"
+    }
+  ]
+}

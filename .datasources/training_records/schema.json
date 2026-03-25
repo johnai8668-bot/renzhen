@@ -1,0 +1,126 @@
+{
+  "name": "training_records",
+  "description": "培训记录数据模型",
+  "fields": [
+    {
+      "name": "_openid",
+      "type": "string",
+      "description": "用户ID",
+      "required": false
+    },
+    {
+      "name": "recordId",
+      "type": "string",
+      "description": "培训记录ID",
+      "required": true
+    },
+    {
+      "name": "employeeId",
+      "type": "string",
+      "description": "员工ID",
+      "required": true
+    },
+    {
+      "name": "employeeName",
+      "type": "string",
+      "description": "员工姓名",
+      "required": true
+    },
+    {
+      "name": "courseId",
+      "type": "string",
+      "description": "课程ID",
+      "required": true
+    },
+    {
+      "name": "courseName",
+      "type": "string",
+      "description": "课程名称",
+      "required": true
+    },
+    {
+      "name": "courseType",
+      "type": "string",
+      "description": "课程类型（入职培训/技能培训/管理培训/安全培训）",
+      "required": true
+    },
+    {
+      "name": "instructor",
+      "type": "string",
+      "description": "讲师姓名",
+      "required": false
+    },
+    {
+      "name": "startDate",
+      "type": "string",
+      "description": "培训开始日期（YYYY-MM-DD）",
+      "required": true
+    },
+    {
+      "name": "endDate",
+      "type": "string",
+      "description": "培训结束日期（YYYY-MM-DD）",
+      "required": false
+    },
+    {
+      "name": "duration",
+      "type": "number",
+      "description": "培训时长（小时）",
+      "required": true
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "description": "培训状态（进行中/已完成/已取消）",
+      "required": true
+    },
+    {
+      "name": "completionRate",
+      "type": "number",
+      "description": "完成进度（百分比）",
+      "required": false
+    },
+    {
+      "name": "score",
+      "type": "number",
+      "description": "培训成绩（百分制）",
+      "required": false
+    },
+    {
+      "name": "certificateUrl",
+      "type": "string",
+      "description": "培训证书URL",
+      "required": false
+    },
+    {
+      "name": "location",
+      "type": "string",
+      "description": "培训地点",
+      "required": false
+    },
+    {
+      "name": "trainingMethod",
+      "type": "string",
+      "description": "培训方式（线下/线上/混合）",
+      "required": false
+    },
+    {
+      "name": "notes",
+      "type": "string",
+      "description": "备注信息",
+      "required": false
+    },
+    {
+      "name": "createdAt",
+      "type": "string",
+      "description": "创建时间",
+      "required": false
+    },
+    {
+      "name": "updatedAt",
+      "type": "string",
+      "description": "更新时间",
+      "required": false
+    }
+  ]
+}

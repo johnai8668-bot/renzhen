@@ -1,0 +1,104 @@
+{
+  "name": "expense_reports",
+  "description": "报销单管理数据模型",
+  "fields": [
+    {
+      "id": "reportId",
+      "displayName": "报销单号",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "applicantId",
+      "displayName": "申请人ID",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "applicantName",
+      "displayName": "申请人姓名",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "department",
+      "displayName": "部门",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "expenseType",
+      "displayName": "费用类型",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "amount",
+      "displayName": "报销金额",
+      "type": "number",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "description",
+      "displayName": "费用说明",
+      "type": "string",
+      "required": true,
+      "isMultiLine": true
+    },
+    {
+      "id": "invoiceUrl",
+      "displayName": "发票附件",
+      "type": "string",
+      "required": false,
+      "isMultiLine": false
+    },
+    {
+      "id": "status",
+      "displayName": "状态",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "submitDate",
+      "displayName": "提交日期",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "approveDate",
+      "displayName": "审批日期",
+      "type": "string",
+      "required": false,
+      "isMultiLine": false
+    },
+    {
+      "id": "approver",
+      "displayName": "审批人",
+      "type": "string",
+      "required": false,
+      "isMultiLine": false
+    },
+    {
+      "id": "remark",
+      "displayName": "备注",
+      "type": "string",
+      "required": false,
+      "isMultiLine": true
+    },
+    {
+      "id": "createdAt",
+      "displayName": "创建时间",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    }
+  ]
+}

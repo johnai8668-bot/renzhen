@@ -1,0 +1,86 @@
+{
+  "name": "audit_tasks",
+  "description": "审核任务数据模型",
+  "fields": [
+    {
+      "name": "_id",
+      "title": "ID",
+      "type": "string"
+    },
+    {
+      "name": "taskName",
+      "title": "任务名称",
+      "type": "string"
+    },
+    {
+      "name": "projectName",
+      "title": "项目名称",
+      "type": "string"
+    },
+    {
+      "name": "auditType",
+      "title": "审核类型",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "title": "任务状态",
+      "type": "string"
+    },
+    {
+      "name": "auditorId",
+      "title": "审核员ID",
+      "type": "string"
+    },
+    {
+      "name": "auditorName",
+      "title": "审核员姓名",
+      "type": "string"
+    },
+    {
+      "name": "dueDate",
+      "title": "截止日期",
+      "type": "string"
+    },
+    {
+      "name": "startDate",
+      "title": "开始日期",
+      "type": "string"
+    },
+    {
+      "name": "endDate",
+      "title": "结束日期",
+      "type": "string"
+    },
+    {
+      "name": "location",
+      "title": "审核地点",
+      "type": "string"
+    },
+    {
+      "name": "description",
+      "title": "任务描述",
+      "type": "string"
+    },
+    {
+      "name": "onSiteRecord",
+      "title": "现场记录",
+      "type": "string"
+    },
+    {
+      "name": "reportUrl",
+      "title": "报告文件URL",
+      "type": "string"
+    },
+    {
+      "name": "createdAt",
+      "title": "创建时间",
+      "type": "string"
+    },
+    {
+      "name": "updatedAt",
+      "title": "更新时间",
+      "type": "string"
+    }
+  ]
+}

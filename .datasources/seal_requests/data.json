@@ -1,0 +1,124 @@
+[
+  {
+    "_id": "1",
+    "requestId": "SQ20260324001",
+    "applicant": {
+      "userId": "user1",
+      "name": "张明",
+      "department": "审核部"
+    },
+    "sealType": "公章",
+    "purpose": "用于与XX公司签订审核服务合同",
+    "documentName": "审核服务合同",
+    "documentCount": 2,
+    "status": "待审批",
+    "createdAt": "2026-03-24T09:30:00Z",
+    "updatedAt": "2026-03-24T09:30:00Z"
+  },
+  {
+    "_id": "2",
+    "requestId": "SQ20260323002",
+    "applicant": {
+      "userId": "user2",
+      "name": "李芳",
+      "department": "市场部"
+    },
+    "sealType": "合同专用章",
+    "purpose": "用于与YY公司签订咨询服务合同",
+    "documentName": "咨询服务合同",
+    "documentCount": 1,
+    "status": "已审批",
+    "approver": {
+      "userId": "admin",
+      "name": "王经理"
+    },
+    "approvalDate": "2026-03-23T14:20:00Z",
+    "approvalComment": "同意使用",
+    "createdAt": "2026-03-23T10:00:00Z",
+    "updatedAt": "2026-03-23T14:20:00Z"
+  },
+  {
+    "_id": "3",
+    "requestId": "SQ20260322003",
+    "applicant": {
+      "userId": "user3",
+      "name": "王强",
+      "department": "财务部"
+    },
+    "sealType": "财务专用章",
+    "purpose": "用于开具发票和财务报表",
+    "documentName": "3月份财务报表",
+    "documentCount": 3,
+    "status": "已使用",
+    "approver": {
+      "userId": "finance_admin",
+      "name": "刘总监"
+    },
+    "approvalDate": "2026-03-22T16:00:00Z",
+    "approvalComment": "审批通过",
+    "useDate": "2026-03-22T17:00:00Z",
+    "returnDate": "2026-03-22T18:00:00Z",
+    "createdAt": "2026-03-22T14:00:00Z",
+    "updatedAt": "2026-03-22T18:00:00Z"
+  },
+  {
+    "_id": "4",
+    "requestId": "SQ20260321004",
+    "applicant": {
+      "userId": "user4",
+      "name": "陈芳",
+      "department": "综合管理部"
+    },
+    "sealType": "法人章",
+    "purpose": "用于办理工商变更手续",
+    "documentName": "工商变更申请表",
+    "documentCount": 1,
+    "status": "已拒绝",
+    "approver": {
+      "userId": "admin",
+      "name": "王经理"
+    },
+    "approvalDate": "2026-03-21T15:30:00Z",
+    "approvalComment": "缺少相关审批文件，请补充后重新申请",
+    "createdAt": "2026-03-21T10:00:00Z",
+    "updatedAt": "2026-03-21T15:30:00Z"
+  },
+  {
+    "_id": "5",
+    "requestId": "SQ20260320005",
+    "applicant": {
+      "userId": "user5",
+      "name": "赵敏",
+      "department": "审核部"
+    },
+    "sealType": "合同专用章",
+    "purpose": "用于与ZZ公司签订培训服务合同",
+    "documentName": "培训服务合同",
+    "documentCount": 2,
+    "status": "已审批",
+    "approver": {
+      "userId": "admin",
+      "name": "王经理"
+    },
+    "approvalDate": "2026-03-24T11:00:00Z",
+    "approvalComment": "批准",
+    "createdAt": "2026-03-20T13:30:00Z",
+    "updatedAt": "2026-03-24T11:00:00Z"
+  },
+  {
+    "_id": "6",
+    "requestId": "SQ20260319006",
+    "applicant": {
+      "userId": "user6",
+      "name": "孙丽",
+      "department": "市场部"
+    },
+    "sealType": "公章",
+    "purpose": "用于开具公司资质证明",
+    "documentName": "资质证明函",
+    "documentCount": 1,
+    "status": "待审批",
+    "createdAt": "2026-03-19T09:00:00Z",
+    "updatedAt": "2026-03-19T09:00:00Z"
+  }
+]

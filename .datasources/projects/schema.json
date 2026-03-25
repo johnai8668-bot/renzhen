@@ -1,0 +1,119 @@
+{
+  "name": "projects",
+  "description": "项目管理数据模型",
+  "fields": [
+    {
+      "name": "projectName",
+      "title": "项目名称",
+      "type": "string"
+    },
+    {
+      "name": "clientName",
+      "title": "客户名称",
+      "type": "string"
+    },
+    {
+      "name": "contactPerson",
+      "title": "联系人",
+      "type": "string"
+    },
+    {
+      "name": "contactPhone",
+      "title": "联系电话",
+      "type": "string"
+    },
+    {
+      "name": "productService",
+      "title": "产品服务",
+      "type": "string"
+    },
+    {
+      "name": "certificationType",
+      "title": "认证类型",
+      "type": "string"
+    },
+    {
+      "name": "auditType",
+      "title": "审核类型",
+      "type": "string"
+    },
+    {
+      "name": "price",
+      "title": "价格",
+      "type": "number"
+    },
+    {
+      "name": "salesperson",
+      "title": "业务员",
+      "type": "string"
+    },
+    {
+      "name": "startDate",
+      "title": "开始日期",
+      "type": "string"
+    },
+    {
+      "name": "expectedCompletionDate",
+      "title": "预计完成日期",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "title": "状态",
+      "type": "string"
+    },
+    {
+      "name": "progress",
+      "title": "进度",
+      "type": "number"
+    },
+    {
+      "name": "notes",
+      "title": "备注",
+      "type": "string"
+    },
+    {
+      "name": "certificationSystems",
+      "title": "认证体系",
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "lastContactDate",
+      "title": "最后联系时间",
+      "type": "string"
+    },
+    {
+      "name": "lastYearStatus",
+      "title": "去年状态",
+      "type": "string"
+    },
+    {
+      "name": "thisYearStatus",
+      "title": "今年状态",
+      "type": "string"
+    },
+    {
+      "name": "trend",
+      "title": "趋势",
+      "type": "string"
+    },
+    {
+      "name": "version",
+      "title": "版本号",
+      "type": "number"
+    },
+    {
+      "name": "isDeleted",
+      "title": "是否删除",
+      "type": "boolean"
+    },
+    {
+      "name": "isActive",
+      "title": "是否激活",
+      "type": "boolean"
+    }
+  ]
+}

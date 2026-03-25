@@ -1,0 +1,201 @@
+{
+  "name": "employee_permissions",
+  "description": "员工权限数据模型",
+  "fields": [
+    {
+      "name": "_openid",
+      "type": "string",
+      "description": "员工用户ID",
+      "required": true
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "description": "员工姓名",
+      "required": true
+    },
+    {
+      "name": "phone",
+      "type": "string",
+      "description": "手机号",
+      "required": true
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "description": "邮箱",
+      "required": false
+    },
+    {
+      "name": "department",
+      "type": "string",
+      "description": "部门",
+      "required": true,
+      "enum": [
+        "审核部",
+        "市场部",
+        "技术质量部",
+        "客服部",
+        "人力资源部",
+        "综合管理部",
+        "财务部"
+      ]
+    },
+    {
+      "name": "position",
+      "type": "string",
+      "description": "职位",
+      "required": true
+    },
+    {
+      "name": "role",
+      "type": "string",
+      "description": "角色",
+      "required": true,
+      "enum": [
+        "超级管理员",
+        "业务总监",
+        "业务经理",
+        "审核员",
+        "财务专员",
+        "行政专员",
+        "外部顾问"
+      ]
+    },
+    {
+      "name": "avatarUrl",
+      "type": "string",
+      "description": "头像URL",
+      "required": false
+    },
+    {
+      "name": "permissions",
+      "type": "object",
+      "description": "权限配置",
+      "required": true,
+      "properties": {
+        "module": {
+          "type": "object",
+          "description": "模块级权限",
+          "properties": {
+            "projectManagement": {
+              "type": "boolean",
+              "description": "项目管理模块"
+            },
+            "customerManagement": {
+              "type": "boolean",
+              "description": "客户管理模块"
+            },
+            "auditManagement": {
+              "type": "boolean",
+              "description": "审核管理模块"
+            },
+            "certificateManagement": {
+              "type": "boolean",
+              "description": "证书管理模块"
+            },
+            "financeManagement": {
+              "type": "boolean",
+              "description": "财务管理模块"
+            },
+            "employeeManagement": {
+              "type": "boolean",
+              "description": "员工管理模块"
+            },
+            "reportAnalysis": {
+              "type": "boolean",
+              "description": "报表分析模块"
+            },
+            "systemSettings": {
+              "type": "boolean",
+              "description": "系统设置模块"
+            }
+          }
+        },
+        "action": {
+          "type": "object",
+          "description": "操作级权限",
+          "properties": {
+            "view": {
+              "type": "boolean",
+              "description": "查看权限"
+            },
+            "create": {
+              "type": "boolean",
+              "description": "创建权限"
+            },
+            "edit": {
+              "type": "boolean",
+              "description": "编辑权限"
+            },
+            "delete": {
+              "type": "boolean",
+              "description": "删除权限"
+            },
+            "export": {
+              "type": "boolean",
+              "description": "导出权限"
+            },
+            "approve": {
+              "type": "boolean",
+              "description": "审批权限"
+            }
+          }
+        },
+        "data": {
+          "type": "object",
+          "description": "数据级权限",
+          "properties": {
+            "allDepartments": {
+              "type": "boolean",
+              "description": "查看所有部门数据"
+            },
+            "ownDepartment": {
+              "type": "boolean",
+              "description": "查看本部门数据"
+            },
+            "ownData": {
+              "type": "boolean",
+              "description": "仅查看自己的数据"
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "dataScope",
+      "type": "string",
+      "description": "数据范围（用于部门级数据隔离）",
+      "required": true,
+      "enum": [
+        "all",
+        "department",
+        "self"
+      ]
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "description": "状态（active: 在职, inactive: 离职）",
+      "required": true
+    },
+    {
+      "name": "lastLogin",
+      "type": "string",
+      "description": "最后登录时间",
+      "required": false
+    },
+    {
+      "name": "createdAt",
+      "type": "string",
+      "description": "创建时间",
+      "required": true
+    },
+    {
+      "name": "updatedAt",
+      "type": "string",
+      "description": "更新时间",
+      "required": true
+    }
+  ]
+}

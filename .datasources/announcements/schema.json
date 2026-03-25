@@ -1,0 +1,94 @@
+{
+  "name": "announcements",
+  "description": "公告发布管理",
+  "fields": [
+    {
+      "name": "title",
+      "type": "string",
+      "required": true,
+      "description": "公告标题"
+    },
+    {
+      "name": "content",
+      "type": "string",
+      "required": true,
+      "description": "公告内容"
+    },
+    {
+      "name": "category",
+      "type": "string",
+      "required": true,
+      "description": "公告类型",
+      "enum": ["通知公告", "政策法规", "活动通知", "人事变动"]
+    },
+    {
+      "name": "priority",
+      "type": "string",
+      "required": true,
+      "description": "优先级",
+      "enum": ["紧急", "重要", "普通"]
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "required": true,
+      "description": "状态",
+      "enum": ["草稿", "已发布", "已撤回"]
+    },
+    {
+      "name": "publishDate",
+      "type": "string",
+      "required": false,
+      "description": "发布日期"
+    },
+    {
+      "name": "publisher",
+      "type": "object",
+      "required": false,
+      "description": "发布人信息",
+      "properties": {
+        "userId": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "name": "attachments",
+      "type": "array",
+      "required": false,
+      "description": "附件列表",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "name": "views",
+      "type": "number",
+      "required": false,
+      "description": "阅读次数"
+    },
+    {
+      "name": "createdAt",
+      "type": "string",
+      "required": false,
+      "description": "创建时间"
+    },
+    {
+      "name": "updatedAt",
+      "type": "string",
+      "required": false,
+      "description": "更新时间"
+    }
+  ]
+}

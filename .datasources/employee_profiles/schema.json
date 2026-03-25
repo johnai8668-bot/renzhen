@@ -1,0 +1,154 @@
+{
+  "name": "employee_profiles",
+  "description": "员工档案数据模型",
+  "fields": [
+    {
+      "name": "_openid",
+      "type": "string",
+      "description": "员工用户ID",
+      "required": true
+    },
+    {
+      "name": "employeeId",
+      "type": "string",
+      "description": "员工编号",
+      "required": true
+    },
+    {
+      "name": "name",
+      "type": "string",
+      "description": "员工姓名",
+      "required": true
+    },
+    {
+      "name": "phone",
+      "type": "string",
+      "description": "手机号",
+      "required": true
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "description": "邮箱",
+      "required": false
+    },
+    {
+      "name": "department",
+      "type": "string",
+      "description": "部门",
+      "required": true
+    },
+    {
+      "name": "position",
+      "type": "string",
+      "description": "职位",
+      "required": true
+    },
+    {
+      "name": "employeeType",
+      "type": "string",
+      "description": "员工类型（全职/兼职/实习生）",
+      "required": true
+    },
+    {
+      "name": "idCard",
+      "type": "string",
+      "description": "身份证号",
+      "required": false
+    },
+    {
+      "name": "address",
+      "type": "string",
+      "description": "居住地址",
+      "required": false
+    },
+    {
+      "name": "entryDate",
+      "type": "string",
+      "description": "入职日期",
+      "required": true
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "description": "员工状态（在职/离职/休假）",
+      "required": true
+    },
+    {
+      "name": "avatarUrl",
+      "type": "string",
+      "description": "头像URL",
+      "required": false
+    },
+    {
+      "name": "certificates",
+      "type": "array",
+      "description": "资质证书列表",
+      "required": false,
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string", "description": "证书名称"},
+          "number": {"type": "string", "description": "证书编号"},
+          "issueDate": {"type": "string", "description": "发证日期"},
+          "expiryDate": {"type": "string", "description": "有效期至"},
+          "issuingAuthority": {"type": "string", "description": "发证机构"},
+          "status": {"type": "string", "description": "证书状态（有效/过期/即将过期）"},
+          "fileUrl": {"type": "string", "description": "证书文件URL"}
+        }
+      }
+    },
+    {
+      "name": "education",
+      "type": "object",
+      "description": "学历信息",
+      "required": false,
+      "properties": {
+        "degree": {"type": "string", "description": "学历"},
+        "major": {"type": "string", "description": "专业"},
+        "school": {"type": "string", "description": "毕业院校"},
+        "graduationDate": {"type": "string", "description": "毕业日期"}
+      }
+    },
+    {
+      "name": "emergencyContact",
+      "type": "object",
+      "description": "紧急联系人",
+      "required": false,
+      "properties": {
+        "name": {"type": "string", "description": "联系人姓名"},
+        "relation": {"type": "string", "description": "关系"},
+        "phone": {"type": "string", "description": "联系电话"}
+      }
+    },
+    {
+      "name": "bankAccount",
+      "type": "object",
+      "description": "银行账户信息",
+      "required": false,
+      "properties": {
+        "bankName": {"type": "string", "description": "开户银行"},
+        "accountNumber": {"type": "string", "description": "账号"},
+        "accountName": {"type": "string", "description": "账户名"}
+      }
+    },
+    {
+      "name": "notes",
+      "type": "string",
+      "description": "备注信息",
+      "required": false
+    },
+    {
+      "name": "createdAt",
+      "type": "string",
+      "description": "创建时间",
+      "required": false
+    },
+    {
+      "name": "updatedAt",
+      "type": "string",
+      "description": "更新时间",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "data": [
+    {
+      "_openid": "user_001",
+      "employeeId": "EMP001",
+      "name": "张三",
+      "phone": "13800138001",
+      "email": "zhangsan@company.com",
+      "department": "审核部",
+      "position": "高级审核员",
+      "employeeType": "全职",
+      "idCard": "110101199001011234",
+      "address": "北京市朝阳区xxx街道xxx号",
+      "entryDate": "2020-03-15",
+      "status": "在职",
+      "avatarUrl": "https://i.pravatar.cc/150?img=1",
+      "certificates": [
+        {
+          "name": "ISO 9001审核员资格证",
+          "number": "ISO9001-202001-001",
+          "issueDate": "2020-01-15",
+          "expiryDate": "2025-01-15",
+          "issuingAuthority": "中国认证认可协会",
+          "status": "有效",
+          "fileUrl": "/files/certificates/iso9001_001.pdf"
+        },
+        {
+          "name": "ISO 14001审核员资格证",
+          "number": "ISO14001-202001-001",
+          "issueDate": "2020-03-20",
+          "expiryDate": "2025-03-20",
+          "issuingAuthority": "中国认证认可协会",
+          "status": "有效",
+          "fileUrl": "/files/certificates/iso14001_001.pdf"
+        }
+      ],
+      "education": {
+        "degree": "本科",
+        "major": "环境工程",
+        "school": "清华大学",
+        "graduationDate": "2018-06-30"
+      },
+      "emergencyContact": {
+        "name": "李四",
+        "relation": "配偶",
+        "phone": "13900139001"
+      },
+      "bankAccount": {
+        "bankName": "中国工商银行",
+        "accountNumber": "6222 0200 1234 5678 901",
+        "accountName": "张三"
+      },
+      "notes": "工作认真负责，审核经验丰富",
+      "createdAt": "2020-03-15T08:00:00Z",
+      "updatedAt": "2024-03-24T10:00:00Z"
+    },
+    {
+      "_openid": "user_002",
+      "employeeId": "EMP002",
+      "name": "李四",
+      "phone": "13800138002",
+      "email": "lisi@company.com",
+      "department": "市场部",
+      "position": "销售经理",
+      "employeeType": "全职",
+      "idCard": "110102199002022345",
+      "address": "北京市海淀区xxx街道xxx号",
+      "entryDate": "2020-06-01",
+      "status": "在职",
+      "avatarUrl": "https://i.pravatar.cc/150?img=2",
+      "certificates": [
+        {
+          "name": "市场营销师",
+          "number": "MK2019-002",
+          "issueDate": "2019-10-01",
+          "expiryDate": "2024-10-01",
+          "issuingAuthority": "中国市场营销协会",
+          "status": "即将过期",
+          "fileUrl": "/files/certificates/mk_002.pdf"
+        }
+      ],
+      "education": {
+        "degree": "本科",
+        "major": "市场营销",
+        "school": "北京大学",
+        "graduationDate": "2019-06-30"
+      },
+      "emergencyContact": {
+        "name": "王五",
+        "relation": "朋友",
+        "phone": "13700137001"
+      },
+      "bankAccount": {
+        "bankName": "中国建设银行",
+        "accountNumber": "6227 0001 2345 6789 012",
+        "accountName": "李四"
+      },
+      "notes": "业绩突出，客户关系良好",
+      "createdAt": "2020-06-01T08:00:00Z",
+      "updatedAt": "2024-03-24T10:00:00Z"
+    },
+    {
+      "_openid": "user_003",
+      "employeeId": "EMP003",
+      "name": "王五",
+      "phone": "13800138003",
+      "email": "wangwu@company.com",
+      "department": "审核部",
+      "position": "审核员",
+      "employeeType": "全职",
+      "idCard": "110103199003033456",
+      "address": "北京市西城区xxx街道xxx号",
+      "entryDate": "2021-01-10",
+      "status": "在职",
+      "avatarUrl": "https://i.pravatar.cc/150?img=3",
+      "certificates": [
+        {
+          "name": "ISO 9001审核员资格证",
+          "number": "ISO9001-202101-003",
+          "issueDate": "2021-01-20",
+          "expiryDate": "2026-01-20",
+          "issuingAuthority": "中国认证认可协会",
+          "status": "有效",
+          "fileUrl": "/files/certificates/iso9001_003.pdf"
+        }
+      ],
+      "education": {
+        "degree": "硕士",
+        "major": "质量管理",
+        "school": "复旦大学",
+        "graduationDate": "2020-06-30"
+      },
+      "emergencyContact": {
+        "name": "赵六",
+        "relation": "同事",
+        "phone": "13600136001"
+      },
+      "bankAccount": {
+        "bankName": "中国农业银行",
+        "accountNumber": "6228 4800 3456 7890 123",
+        "accountName": "王五"
+      },
+      "notes": "新员工，学习能力强",
+      "createdAt": "2021-01-10T08:00:00Z",
+      "updatedAt": "2024-03-24T10:00:00Z"
+    },
+    {
+      "_openid": "user_004",
+      "employeeId": "EMP004",
+      "name": "赵六",
+      "phone": "13800138004",
+      "email": "zhaoliu@company.com",
+      "department": "市场部",
+      "position": "销售专员",
+      "employeeType": "全职",
+      "idCard": "110104199004045678",
+      "address": "北京市东城区xxx街道xxx号",
+      "entryDate": "2022-03-01",
+      "status": "在职",
+      "avatarUrl": "https://i.pravatar.cc/150?img=4",
+      "certificates": [],
+      "education": {
+        "degree": "本科",
+        "major": "工商管理",
+        "school": "中国人民大学",
+        "graduationDate": "2021-06-30"
+      },
+      "emergencyContact": {
+        "name": "张三",
+        "relation": "同学",
+        "phone": "13800138001"
+      },
+      "bankAccount": {
+        "bankName": "中国招商银行",
+        "accountNumber": "6214 8300 4567 8901 234",
+        "accountName": "赵六"
+      },
+      "notes": "积极主动，沟通能力强",
+      "createdAt": "2022-03-01T08:00:00Z",
+      "updatedAt": "2024-03-24T10:00:00Z"
+    },
+    {
+      "_openid": "user_005",
+      "employeeId": "EMP005",
+      "name": "孙七",
+      "phone": "13800138005",
+      "email": "sunqi@company.com",
+      "department": "综合管理部",
+      "position": "行政专员",
+      "employeeType": "全职",
+      "idCard": "110105199005057890",
+      "address": "北京市丰台区xxx街道xxx号",
+      "entryDate": "2021-08-15",
+      "status": "在职",
+      "avatarUrl": "https://i.pravatar.cc/150?img=5",
+      "certificates": [
+        {
+          "name": "行政管理师",
+          "number": "AD2021-005",
+          "issueDate": "2021-08-01",
+          "expiryDate": "2026-08-01",
+          "issuingAuthority": "中国行政管理协会",
+          "status": "有效",
+          "fileUrl": "/files/certificates/ad_005.pdf"
+        }
+      ],
+      "education": {
+        "degree": "本科",
+        "major": "行政管理",
+        "school": "北京师范大学",
+        "graduationDate": "2021-06-30"
+      },
+      "emergencyContact": {
+        "name": "周八",
+        "relation": "配偶",
+        "phone": "13500135001"
+      },
+      "bankAccount": {
+        "bankName": "中国银行",
+        "accountNumber": "6216 6100 5678 9012 345",
+        "accountName": "孙七"
+      },
+      "notes": "工作细致，责任心强",
+      "createdAt": "2021-08-15T08:00:00Z",
+      "updatedAt": "2024-03-24T10:00:00Z"
+    },
+    {
+      "_openid": "user_006",
+      "employeeId": "EMP006",
+      "name": "周八",
+      "phone": "13800138006",
+      "email": "zhouba@company.com",
+      "department": "财务部",
+      "position": "财务专员",
+      "employeeType": "全职",
+      "idCard": "110106199006068901",
+      "address": "北京市石景山区xxx街道xxx号",
+      "entryDate": "2020-09-01",
+      "status": "在职",
+      "avatarUrl": "https://i.pravatar.cc/150?img=6",
+      "certificates": [
+        {
+          "name": "注册会计师",
+          "number": "CPA2018-006",
+          "issueDate": "2018-09-10",
+          "expiryDate": "2025-09-10",
+          "issuingAuthority": "中国注册会计师协会",
+          "status": "有效",
+          "fileUrl": "/files/certificates/cpa_006.pdf"
+        }
+      ],
+      "education": {
+        "degree": "硕士",
+        "major": "会计学",
+        "school": "中央财经大学",
+        "graduationDate": "2018-06-30"
+      },
+      "emergencyContact": {
+        "name": "吴九",
+        "relation": "朋友",
+        "phone": "13400134001"
+      },
+      "bankAccount": {
+        "bankName": "交通银行",
+        "accountNumber": "6222 6200 6789 0123 456",
+        "accountName": "周八"
+      },
+      "notes": "专业能力强，工作严谨",
+      "createdAt": "2020-09-01T08:00:00Z",
+      "updatedAt": "2024-03-24T10:00:00Z"
+    },
+    {
+      "_openid": "user_007",
+      "employeeId": "EMP007",
+      "name": "吴九",
+      "phone": "13800138007",
+      "email": "wujiu@company.com",
+      "department": "人力资源部",
+      "position": "人事专员",
+      "employeeType": "全职",
+      "idCard": "110107199007079012",
+      "address": "北京市通州区xxx街道xxx号",
+      "entryDate": "2021-04-01",
+      "status": "在职",
+      "avatarUrl": "https://i.pravatar.cc/150?img=7",
+      "certificates": [
+        {
+          "name": "人力资源管理师",
+          "number": "HRM2021-007",
+          "issueDate": "2021-03-20",
+          "expiryDate": "2026-03-20",
+          "issuingAuthority": "中国人力资源管理协会",
+          "status": "有效",
+          "fileUrl": "/files/certificates/hrm_007.pdf"
+        }
+      ],
+      "education": {
+        "degree": "本科",
+        "major": "人力资源管理",
+        "school": "对外经济贸易大学",
+        "graduationDate": "2020-06-30"
+      },
+      "emergencyContact": {
+        "name": "郑十",
+        "relation": "同学",
+        "phone": "13300133001"
+      },
+      "bankAccount": {
+        "bankName": "中国光大银行",
+        "accountNumber": "6226 6300 7890 1234 567",
+        "accountName": "吴九"
+      },
+      "notes": "亲和力强，沟通能力好",
+      "createdAt": "2021-04-01T08:00:00Z",
+      "updatedAt": "2024-03-24T10:00:00Z"
+    },
+    {
+      "_openid": "user_008",
+      "employeeId": "EMP008",
+      "name": "郑十",
+      "phone": "13800138008",
+      "email": "zhengshi@company.com",
+      "department": "审核部",
+      "position": "审核员",
+      "employeeType": "兼职",
+      "idCard": "110108199008080123",
+      "address": "北京市大兴区xxx街道xxx号",
+      "entryDate": "2023-01-15",
+      "status": "在职",
+      "avatarUrl": "https://i.pravatar.cc/150?img=8",
+      "certificates": [
+        {
+          "name": "ISO 9001审核员资格证",
+          "number": "ISO9001-202301-008",
+          "issueDate": "2023-01-10",
+          "expiryDate": "2028-01-10",
+          "issuingAuthority": "中国认证认可协会",
+          "status": "有效",
+          "fileUrl": "/files/certificates/iso9001_008.pdf"
+        }
+      ],
+      "education": {
+        "degree": "硕士",
+        "major": "环境科学",
+        "school": "北京理工大学",
+        "graduationDate": "2022-06-30"
+      },
+      "emergencyContact": {
+        "name": "张三",
+        "relation": "同事",
+        "phone": "13800138001"
+      },
+      "bankAccount": {
+        "bankName": "北京银行",
+        "accountNumber": "6214 6800 8901 2345 678",
+        "accountName": "郑十"
+      },
+      "notes": "兼职审核员，周末可出差",
+      "createdAt": "2023-01-15T08:00:00Z",
+      "updatedAt": "2024-03-24T10:00:00Z"
+    }
+  ]
+}

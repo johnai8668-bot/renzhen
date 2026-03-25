@@ -1,0 +1,120 @@
+{
+  "name": "attendance_records",
+  "description": "考勤记录数据模型",
+  "fields": [
+    {
+      "name": "_openid",
+      "type": "string",
+      "description": "用户ID",
+      "required": false
+    },
+    {
+      "name": "recordId",
+      "type": "string",
+      "description": "考勤记录ID",
+      "required": true
+    },
+    {
+      "name": "employeeId",
+      "type": "string",
+      "description": "员工ID",
+      "required": true
+    },
+    {
+      "name": "employeeName",
+      "type": "string",
+      "description": "员工姓名",
+      "required": true
+    },
+    {
+      "name": "date",
+      "type": "string",
+      "description": "打卡日期（YYYY-MM-DD）",
+      "required": true
+    },
+    {
+      "name": "clockInTime",
+      "type": "string",
+      "description": "上班打卡时间（HH:MM）",
+      "required": false
+    },
+    {
+      "name": "clockOutTime",
+      "type": "string",
+      "description": "下班打卡时间（HH:MM）",
+      "required": false
+    },
+    {
+      "name": "clockInLocation",
+      "type": "string",
+      "description": "上班打卡位置",
+      "required": false
+    },
+    {
+      "name": "clockOutLocation",
+      "type": "string",
+      "description": "下班打卡位置",
+      "required": false
+    },
+    {
+      "name": "clockInStatus",
+      "type": "string",
+      "description": "上班打卡状态（正常/迟到/早退/缺卡）",
+      "required": false
+    },
+    {
+      "name": "clockOutStatus",
+      "type": "string",
+      "description": "下班打卡状态（正常/早退/缺卡）",
+      "required": false
+    },
+    {
+      "name": "workHours",
+      "type": "number",
+      "description": "工作时长（小时）",
+      "required": false
+    },
+    {
+      "name": "overtimeHours",
+      "type": "number",
+      "description": "加班时长（小时）",
+      "required": false
+    },
+    {
+      "name": "leaveType",
+      "type": "string",
+      "description": "请假类型（事假/病假/年假/其他）",
+      "required": false
+    },
+    {
+      "name": "leaveHours",
+      "type": "number",
+      "description": "请假时长（小时）",
+      "required": false
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "description": "考勤状态（正常/异常）",
+      "required": true
+    },
+    {
+      "name": "notes",
+      "type": "string",
+      "description": "备注信息",
+      "required": false
+    },
+    {
+      "name": "createdAt",
+      "type": "string",
+      "description": "创建时间",
+      "required": false
+    },
+    {
+      "name": "updatedAt",
+      "type": "string",
+      "description": "更新时间",
+      "required": false
+    }
+  ]
+}

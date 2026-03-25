@@ -1,0 +1,102 @@
+{
+  "name": "orders",
+  "description": "订单管理",
+  "fields": [
+    {
+      "name": "orderNumber",
+      "type": "string",
+      "required": true,
+      "description": "订单编号"
+    },
+    {
+      "name": "projectId",
+      "type": "string",
+      "required": true,
+      "description": "关联项目ID"
+    },
+    {
+      "name": "projectName",
+      "type": "string",
+      "required": true,
+      "description": "项目名称"
+    },
+    {
+      "name": "clientName",
+      "type": "string",
+      "required": true,
+      "description": "客户名称"
+    },
+    {
+      "name": "productService",
+      "type": "string",
+      "required": true,
+      "description": "产品服务"
+    },
+    {
+      "name": "amount",
+      "type": "number",
+      "required": true,
+      "description": "订单金额"
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "required": true,
+      "description": "订单状态（待付款、已付款、已开票、已完成、已取消）"
+    },
+    {
+      "name": "orderDate",
+      "type": "string",
+      "required": true,
+      "description": "下单日期"
+    },
+    {
+      "name": "expectedPaymentDate",
+      "type": "string",
+      "required": false,
+      "description": "预计付款日期"
+    },
+    {
+      "name": "actualPaymentDate",
+      "type": "string",
+      "required": false,
+      "description": "实际付款日期"
+    },
+    {
+      "name": "paymentMethod",
+      "type": "string",
+      "required": false,
+      "description": "付款方式"
+    },
+    {
+      "name": "invoiceStatus",
+      "type": "string",
+      "required": false,
+      "description": "开票状态"
+    },
+    {
+      "name": "invoiceNumber",
+      "type": "string",
+      "required": false,
+      "description": "发票号码"
+    },
+    {
+      "name": "notes",
+      "type": "string",
+      "required": false,
+      "description": "备注"
+    },
+    {
+      "name": "createdAt",
+      "type": "string",
+      "required": true,
+      "description": "创建时间"
+    },
+    {
+      "name": "updatedAt",
+      "type": "string",
+      "required": true,
+      "description": "更新时间"
+    }
+  ]
+}

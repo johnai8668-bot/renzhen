@@ -1,0 +1,128 @@
+{
+  "name": "seal_requests",
+  "description": "印章申请管理",
+  "fields": [
+    {
+      "name": "requestId",
+      "type": "string",
+      "required": true,
+      "description": "申请编号"
+    },
+    {
+      "name": "applicant",
+      "type": "object",
+      "required": true,
+      "description": "申请人信息",
+      "properties": {
+        "userId": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "department": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "name": "sealType",
+      "type": "string",
+      "required": true,
+      "description": "印章类型",
+      "enum": ["公章", "合同专用章", "财务专用章", "法人章"]
+    },
+    {
+      "name": "purpose",
+      "type": "string",
+      "required": true,
+      "description": "用途说明"
+    },
+    {
+      "name": "documentName",
+      "type": "string",
+      "required": true,
+      "description": "文件名称"
+    },
+    {
+      "name": "documentCount",
+      "type": "number",
+      "required": true,
+      "description": "文件份数"
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "required": true,
+      "description": "状态",
+      "enum": ["待审批", "已审批", "已拒绝", "已使用"]
+    },
+    {
+      "name": "approver",
+      "type": "object",
+      "required": false,
+      "description": "审批人信息",
+      "properties": {
+        "userId": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    {
+      "name": "approvalDate",
+      "type": "string",
+      "required": false,
+      "description": "审批日期"
+    },
+    {
+      "name": "approvalComment",
+      "type": "string",
+      "required": false,
+      "description": "审批意见"
+    },
+    {
+      "name": "useDate",
+      "type": "string",
+      "required": false,
+      "description": "使用日期"
+    },
+    {
+      "name": "returnDate",
+      "type": "string",
+      "required": false,
+      "description": "归还日期"
+    },
+    {
+      "name": "attachments",
+      "type": "array",
+      "required": false,
+      "description": "附件列表",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    {
+      "name": "createdAt",
+      "type": "string",
+      "required": false,
+      "description": "申请时间"
+    },
+    {
+      "name": "updatedAt",
+      "type": "string",
+      "required": false,
+      "description": "更新时间"
+    }
+  ]
+}

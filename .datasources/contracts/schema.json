@@ -1,0 +1,104 @@
+{
+  "name": "contracts",
+  "description": "合同数据模型",
+  "fields": [
+    {
+      "name": "contract_no",
+      "type": "string",
+      "required": true,
+      "description": "合同编号"
+    },
+    {
+      "name": "customer_id",
+      "type": "string",
+      "required": true,
+      "description": "客户ID"
+    },
+    {
+      "name": "customer_name",
+      "type": "string",
+      "required": true,
+      "description": "客户名称"
+    },
+    {
+      "name": "template_type",
+      "type": "string",
+      "required": true,
+      "description": "合同模板类型：审核服务、咨询服务、培训服务、综合服务",
+      "enum": ["审核服务", "咨询服务", "培训服务", "综合服务"]
+    },
+    {
+      "name": "contract_amount",
+      "type": "number",
+      "required": true,
+      "description": "合同金额"
+    },
+    {
+      "name": "paid_amount",
+      "type": "number",
+      "required": true,
+      "description": "已付金额"
+    },
+    {
+      "name": "start_date",
+      "type": "date",
+      "required": true,
+      "description": "合同开始日期"
+    },
+    {
+      "name": "end_date",
+      "type": "date",
+      "required": true,
+      "description": "合同结束日期"
+    },
+    {
+      "name": "status",
+      "type": "string",
+      "required": true,
+      "description": "合同状态：草稿、待审批、已生效、已完成、已取消",
+      "enum": ["草稿", "待审批", "已生效", "已完成", "已取消"]
+    },
+    {
+      "name": "sign_date",
+      "type": "date",
+      "required": false,
+      "description": "签约日期"
+    },
+    {
+      "name": "salesperson_id",
+      "type": "string",
+      "required": true,
+      "description": "销售员ID"
+    },
+    {
+      "name": "salesperson_name",
+      "type": "string",
+      "required": true,
+      "description": "销售员姓名"
+    },
+    {
+      "name": "content",
+      "type": "text",
+      "required": false,
+      "description": "合同内容"
+    },
+    {
+      "name": "remark",
+      "type": "string",
+      "required": false,
+      "description": "备注"
+    },
+    {
+      "name": "created_at",
+      "type": "datetime",
+      "required": true,
+      "description": "创建时间"
+    },
+    {
+      "name": "updated_at",
+      "type": "datetime",
+      "required": true,
+      "description": "更新时间"
+    }
+  ]
+}

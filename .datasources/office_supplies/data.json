@@ -1,0 +1,190 @@
+[
+  {
+    "_id": "1",
+    "supplyId": "OS20260324001",
+    "applicant": {
+      "userId": "user1",
+      "name": "张明",
+      "department": "审核部"
+    },
+    "items": [
+      {"itemName": "A4纸", "quantity": 5, "unit": "包", "unitPrice": 25},
+      {"itemName": "签字笔", "quantity": 10, "unit": "支", "unitPrice": 2},
+      {"itemName": "文件袋", "quantity": 20, "unit": "个", "unitPrice": 1.5}
+    ],
+    "totalAmount": 80,
+    "reason": "审核工作需要打印材料和文具",
+    "status": "待审批",
+    "inventory": [
+      {"itemName": "A4纸", "stock": 150, "unit": "包"},
+      {"itemName": "签字笔", "stock": 200, "unit": "支"},
+      {"itemName": "文件袋", "stock": 100, "unit": "个"}
+    ],
+    "createdAt": "2026-03-24T08:30:00Z",
+    "updatedAt": "2026-03-24T08:30:00Z"
+  },
+  {
+    "_id": "2",
+    "supplyId": "OS20260323002",
+    "applicant": {
+      "userId": "user2",
+      "name": "李芳",
+      "department": "市场部"
+    },
+    "items": [
+      {"itemName": "笔记本", "quantity": 5, "unit": "本", "unitPrice": 15},
+      {"itemName": "打印纸", "quantity": 3, "unit": "包", "unitPrice": 28}
+    ],
+    "totalAmount": 159,
+    "reason": "外出拜访客户需要",
+    "status": "已审批",
+    "approver": {
+      "userId": "admin",
+      "name": "王经理"
+    },
+    "approvalDate": "2026-03-23T14:00:00Z",
+    "approvalComment": "批准",
+    "inventory": [
+      {"itemName": "笔记本", "stock": 80, "unit": "本"},
+      {"itemName": "打印纸", "stock": 120, "unit": "包"}
+    ],
+    "createdAt": "2026-03-23T09:00:00Z",
+    "updatedAt": "2026-03-23T14:00:00Z"
+  },
+  {
+    "_id": "3",
+    "supplyId": "OS20260322003",
+    "applicant": {
+      "userId": "user3",
+      "name": "王强",
+      "department": "财务部"
+    },
+    "items": [
+      {"itemName": "计算器", "quantity": 2, "unit": "个", "unitPrice": 45},
+      {"itemName": "回形针", "quantity": 5, "unit": "盒", "unitPrice": 5}
+    ],
+    "totalAmount": 115,
+    "reason": "财务部门更新办公设备",
+    "status": "已领取",
+    "approver": {
+      "userId": "finance_admin",
+      "name": "刘总监"
+    },
+    "approvalDate": "2026-03-22T15:00:00Z",
+    "approvalComment": "同意",
+    "receiveDate": "2026-03-23T10:00:00Z",
+    "receiver": "王强",
+    "inventory": [
+      {"itemName": "计算器", "stock": 15, "unit": "个"},
+      {"itemName": "回形针", "stock": 50, "unit": "盒"}
+    ],
+    "createdAt": "2026-03-22T10:00:00Z",
+    "updatedAt": "2026-03-23T10:00:00Z"
+  },
+  {
+    "_id": "4",
+    "supplyId": "OS20260321004",
+    "applicant": {
+      "userId": "user4",
+      "name": "陈芳",
+      "department": "综合管理部"
+    },
+    "items": [
+      {"itemName": "打印机墨盒", "quantity": 10, "unit": "个", "unitPrice": 80}
+    ],
+    "totalAmount": 800,
+    "reason": "更换打印机墨盒",
+    "status": "已拒绝",
+    "approver": {
+      "userId": "admin",
+      "name": "王经理"
+    },
+    "approvalDate": "2026-03-21T16:00:00Z",
+    "approvalComment": "库存充足，请先使用库存",
+    "inventory": [
+      {"itemName": "打印机墨盒", "stock": 25, "unit": "个"}
+    ],
+    "createdAt": "2026-03-21T09:00:00Z",
+    "updatedAt": "2026-03-21T16:00:00Z"
+  },
+  {
+    "_id": "5",
+    "supplyId": "OS20260320005",
+    "applicant": {
+      "userId": "user5",
+      "name": "赵敏",
+      "department": "审核部"
+    },
+    "items": [
+      {"itemName": "文件夹", "quantity": 30, "unit": "个", "unitPrice": 8},
+      {"itemName": "胶水", "quantity": 5, "unit": "瓶", "unitPrice": 3}
+    ],
+    "totalAmount": 255,
+    "reason": "整理审核档案资料",
+    "status": "已审批",
+    "approver": {
+      "userId": "admin",
+      "name": "王经理"
+    },
+    "approvalDate": "2026-03-24T11:30:00Z",
+    "approvalComment": "批准",
+    "inventory": [
+      {"itemName": "文件夹", "stock": 200, "unit": "个"},
+      {"itemName": "胶水", "stock": 40, "unit": "瓶"}
+    ],
+    "createdAt": "2026-03-20T13:00:00Z",
+    "updatedAt": "2026-03-24T11:30:00Z"
+  },
+  {
+    "_id": "6",
+    "supplyId": "OS20260319006",
+    "applicant": {
+      "userId": "user6",
+      "name": "孙丽",
+      "department": "市场部"
+    },
+    "items": [
+      {"itemName": "名片盒", "quantity": 10, "unit": "个", "unitPrice": 12},
+      {"itemName": "马克笔", "quantity": 5, "unit": "支", "unitPrice": 8}
+    ],
+    "totalAmount": 160,
+    "reason": "客户拜访需要",
+    "status": "待审批",
+    "inventory": [
+      {"itemName": "名片盒", "stock": 80, "unit": "个"},
+      {"itemName": "马克笔", "stock": 60, "unit": "支"}
+    ],
+    "createdAt": "2026-03-19T14:00:00Z",
+    "updatedAt": "2026-03-19T14:00:00Z"
+  },
+  {
+    "_id": "7",
+    "supplyId": "OS20260318007",
+    "applicant": {
+      "userId": "tech",
+      "name": "李主管",
+      "department": "技术部"
+    },
+    "items": [
+      {"itemName": "U盘", "quantity": 3, "unit": "个", "unitPrice": 35},
+      {"itemName": "笔记本支架", "quantity": 2, "unit": "个", "unitPrice": 50}
+    ],
+    "totalAmount": 205,
+    "reason": "技术部门设备更新",
+    "status": "已领取",
+    "approver": {
+      "userId": "admin",
+      "name": "王经理"
+    },
+    "approvalDate": "2026-03-18T16:00:00Z",
+    "approvalComment": "批准",
+    "receiveDate": "2026-03-19T09:00:00Z",
+    "receiver": "李主管",
+    "inventory": [
+      {"itemName": "U盘", "stock": 45, "unit": "个"},
+      {"itemName": "笔记本支架", "stock": 20, "unit": "个"}
+    ],
+    "createdAt": "2026-03-18T10:00:00Z",
+    "updatedAt": "2026-03-19T09:00:00Z"
+  }
+]

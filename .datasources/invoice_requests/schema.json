@@ -1,0 +1,132 @@
+{
+  "name": "invoice_requests",
+  "description": "发票申请数据模型",
+  "fields": [
+    {
+      "id": "invoiceId",
+      "displayName": "发票编号",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "contractId",
+      "displayName": "合同编号",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "contractAmount",
+      "displayName": "合同金额",
+      "type": "number",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "customerName",
+      "displayName": "客户名称",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "invoiceType",
+      "displayName": "发票类型",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "invoiceAmount",
+      "displayName": "开票金额",
+      "type": "number",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "taxRate",
+      "displayName": "税率",
+      "type": "number",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "invoiceTitle",
+      "displayName": "发票抬头",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "taxNumber",
+      "displayName": "纳税人识别号",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "bankAccount",
+      "displayName": "银行账号",
+      "type": "string",
+      "required": false,
+      "isMultiLine": false
+    },
+    {
+      "id": "address",
+      "displayName": "地址电话",
+      "type": "string",
+      "required": false,
+      "isMultiLine": true
+    },
+    {
+      "id": "invoiceDate",
+      "displayName": "开票日期",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "status",
+      "displayName": "状态",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "invoiceNumber",
+      "displayName": "发票号码",
+      "type": "string",
+      "required": false,
+      "isMultiLine": false
+    },
+    {
+      "id": "applicantId",
+      "displayName": "申请人ID",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "applicantName",
+      "displayName": "申请人姓名",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    },
+    {
+      "id": "remark",
+      "displayName": "备注",
+      "type": "string",
+      "required": false,
+      "isMultiLine": true
+    },
+    {
+      "id": "createdAt",
+      "displayName": "创建时间",
+      "type": "string",
+      "required": true,
+      "isMultiLine": false
+    }
+  ]
+}
