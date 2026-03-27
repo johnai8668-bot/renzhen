@@ -1,1 +1,114 @@
-{"bsonType":"object","properties":{"_id":{"bsonType":"string","description":"唯一标识每一条记录"},"customerId":{"bsonType":"string","description":"客户ID"},"customerName":{"bsonType":"string","description":"客户名称"},"industry":{"bsonType":"string","description":"所属行业"},"customerScale":{"bsonType":"string","description":"客户规模"},"contactPerson":{"bsonType":"string","description":"联系人"},"contactPhone":{"bsonType":"string","description":"联系电话"},"customerStatus":{"bsonType":"string","description":"客户状态"},"followUpType":{"bsonType":"string","description":"跟进类型"},"followUpDate":{"bsonType":"date","description":"跟进日期"},"followUpTime":{"bsonType":"string","description":"跟进时间"},"salesperson":{"bsonType":"string","description":"销售人员"},"salespersonId":{"bsonType":"string","description":"销售人员ID"},"department":{"bsonType":"string","description":"所属部门"},"followUpContent":{"bsonType":"string","description":"跟进内容"},"customerFeedback":{"bsonType":"string","description":"客户反馈"},"notes":{"bsonType":"string","description":"备注"},"nextFollowUpDate":{"bsonType":"date","description":"下次跟进日期"},"nextFollowUpPlan":{"bsonType":"string","description":"下次跟进计划"},"interestLevel":{"bsonType":"string","description":"意向程度"},"estimatedAmount":{"bsonType":"double","description":"预估金额"},"actualAmount":{"bsonType":"double","description":"实际金额"},"conversionRate":{"bsonType":"double","description":"转化率"},"projectProgress":{"bsonType":"string","description":"项目进度"},"result":{"bsonType":"string","description":"跟进结果"},"attachments":{"bsonType":"array","items":{"bsonType":"object","properties":{"name":{"bsonType":"string"},"url":{"bsonType":"string"},"size":{"bsonType":"int"}}},"description":"附件列表"}}}
+{
+  "name": "follow_ups",
+  "title": "跟进记录",
+  "schemas": [
+    {
+      "name": "customerId",
+      "title": "客户ID",
+      "type": "String"
+    },
+    {
+      "name": "customerName",
+      "title": "客户名称",
+      "type": "String"
+    },
+    {
+      "name": "contactPerson",
+      "title": "联系人",
+      "type": "String"
+    },
+    {
+      "name": "contactPhone",
+      "title": "联系电话",
+      "type": "String"
+    },
+    {
+      "name": "followUpType",
+      "title": "跟进类型",
+      "type": "String"
+    },
+    {
+      "name": "followUpDate",
+      "title": "跟进日期",
+      "type": "Date"
+    },
+    {
+      "name": "followUpTime",
+      "title": "跟进时间",
+      "type": "String"
+    },
+    {
+      "name": "followUpContent",
+      "title": "跟进内容",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "customerFeedback",
+      "title": "客户反馈",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "notes",
+      "title": "备注",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "nextFollowUpDate",
+      "title": "下次跟进日期",
+      "type": "Date"
+    },
+    {
+      "name": "nextFollowUpPlan",
+      "title": "下次跟进计划",
+      "type": "MultiLineString"
+    },
+    {
+      "name": "interestLevel",
+      "title": "意向程度",
+      "type": "String"
+    },
+    {
+      "name": "salesperson",
+      "title": "销售人员",
+      "type": "String"
+    },
+    {
+      "name": "salespersonId",
+      "title": "销售人员ID",
+      "type": "String"
+    },
+    {
+      "name": "department",
+      "title": "所属部门",
+      "type": "String"
+    },
+    {
+      "name": "result",
+      "title": "跟进结果",
+      "type": "String"
+    },
+    {
+      "name": "projectProgress",
+      "title": "项目进度",
+      "type": "String"
+    },
+    {
+      "name": "estimatedAmount",
+      "title": "预估金额",
+      "type": "Number"
+    },
+    {
+      "name": "actualAmount",
+      "title": "实际金额",
+      "type": "Number"
+    },
+    {
+      "name": "attachments",
+      "title": "附件列表",
+      "type": "Array",
+      "items": {
+        "type": "Object"
+      }
+    }
+  ]
+}
